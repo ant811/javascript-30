@@ -23,3 +23,12 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 * The tutorial solution:
     * showcases how to listen for targeted transitions, and
     * explains how to restart sound clip immediately 
+
+### **Project 2: JS and CSS Clock**
+**Completed:** 04/07/20
+
+**Lessons Learned:** 
+* Fun ways to manipulate elements with CSS:
+    * transform & transition properties 
+    * animation with cubic-bezier function
+* Pulling data from Date class
