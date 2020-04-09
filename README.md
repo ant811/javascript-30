@@ -32,3 +32,12 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
     * transform & transition properties 
     * animation with cubic-bezier function
 * Pulling data from Date class
+
+### **Project 3: CSS Variables**
+**Completed:** 04/08/20
+
+**Lessons Learned:** 
+* document.querySelectorAll returns NodeList (looks like array), doesn't include all Array methods, but includes native forEach()
+* `dataset` object contains all data of an element with `data-` in attribute name
+* When using CSS variable, you can update that variable on any element/selector that references the variable
+* Same cascade rules of CCS apply (variables can be scoped/nested for greater precedence)
