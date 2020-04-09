@@ -41,3 +41,9 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 * `dataset` object contains all data of an element with `data-` in attribute name
 * When using CSS variable, you can update that variable on any element/selector that references the variable
 * Same cascade rules of CCS apply (variables can be scoped/nested for greater precedence)
+
+### **Project 4: Array Cardio Day 1
+**Completed:** 04/09/20
+
+**Lessons Learned:** 
+* Note that sort() mutates the array and does NOT return a shallow copy.  After sorting the array `inventors` twice, I kept getting false negatives in my console logs (I.e., result of 5 (Sort the inventors by years lived) kept overriding result of 3 (Sort the inventors by birthdate)).  For exercise 5, I sorted a shallow copy of `inventors` to showcase that both sorting functions log the correct results to the console.
