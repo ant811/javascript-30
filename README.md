@@ -47,3 +47,11 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 
 **Lessons Learned:** 
 * Note that sort() mutates the array and does NOT return a shallow copy.  After sorting the array `inventors` twice, I kept getting false negatives in my console logs (I.e., result of 5 (Sort the inventors by years lived) kept overriding result of 3 (Sort the inventors by birthdate)).  For exercise 5, I sorted a shallow copy of `inventors` to showcase that both sorting functions log the correct results to the console.
+
+### **Project 5: Flex Panel Gallery
+**Completed:** 04/09/20
+
+**Lessons Learned:** 
+* For additional practice on flexbox, see Wes's course [What the Flexbox?](https://flexbox.io/)
+* An element in CSS can be both a flex item and a flex container
+* CSS Flex property makes it easy to position and size elements relative to sibling, children, and parent elements
