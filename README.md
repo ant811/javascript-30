@@ -55,3 +55,10 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 * For additional practice on flexbox, see Wes's course [What the Flexbox?](https://flexbox.io/)
 * An element in CSS can be both a flex item and a flex container
 * CSS Flex property makes it easy to position and size elements relative to sibling, children, and parent elements
+
+### **Project 6: Type Ahead
+**Completed:** 04/10/20
+
+**Lessons Learned:** 
+* `fetch` used for API calls, easy GET requests, promisified
+* Regular expressions can be used to modify data, and not just confirm patterns in data
