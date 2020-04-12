@@ -62,3 +62,9 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 **Lessons Learned:** 
 * `fetch` used for API calls, easy GET requests, promisified
 * Regular expressions can be used to modify data, and not just confirm patterns in data
+
+### **Project 6: Array Cardio Day 2
+**Completed:** 04/11/20
+
+**Lessons Learned:** 
+* `find` and `findIndex` methods only return the *first match*, subsequent matches are not returned.  
