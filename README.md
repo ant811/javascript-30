@@ -63,8 +63,24 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 * `fetch` used for API calls, easy GET requests, promisified
 * Regular expressions can be used to modify data, and not just confirm patterns in data
 
-### **Project 6: Array Cardio Day 2
+### **Project 7: Array Cardio Day 2
 **Completed:** 04/11/20
 
 **Lessons Learned:** 
-* `find` and `findIndex` methods only return the *first match*, subsequent matches are not returned.  
+* `find` and `findIndex` methods only return the *first match*, subsequent matches are not returned. 
+
+### **Project 8: Fun with HTML5 Canvas
+**Completed:** 04/12/20
+
+**Lessons Learned:** 
+* You don't draw on HTML `canvas` element, you draw on context 
+* Content `ctx` properties `lineJoin` and `lineCap` have value `round` to round out digit paintbrush
+* Drawing in Canvas - need a starting and ending 'x' and 'y'
+* HSL reference: [Mother-Effing HSL](https://mothereffinghsl.com/)
+* HSL:
+    * Color representation
+    * Hue, Saturation, Lightness
+    * Hue (color), red to red
+    * Saturation (brightness)
+    * Lightness (white to black)
+    * Representation of rainbow pallette w/ all colors and shades, which we can programmatically select, and return to red
