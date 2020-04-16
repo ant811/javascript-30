@@ -42,13 +42,13 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 * When using CSS variable, you can update that variable on any element/selector that references the variable
 * Same cascade rules of CCS apply (variables can be scoped/nested for greater precedence)
 
-### **Project 4: Array Cardio Day 1
+### **Project 4: Array Cardio Day 1**
 **Completed:** 04/09/20
 
 **Lessons Learned:** 
 * Note that sort() mutates the array and does NOT return a shallow copy.  After sorting the array `inventors` twice, I kept getting false negatives in my console logs (I.e., result of 5 (Sort the inventors by years lived) kept overriding result of 3 (Sort the inventors by birthdate)).  For exercise 5, I sorted a shallow copy of `inventors` to showcase that both sorting functions log the correct results to the console.
 
-### **Project 5: Flex Panel Gallery
+### **Project 5: Flex Panel Gallery**
 **Completed:** 04/09/20
 
 **Lessons Learned:** 
@@ -56,20 +56,20 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 * An element in CSS can be both a flex item and a flex container
 * CSS Flex property makes it easy to position and size elements relative to sibling, children, and parent elements
 
-### **Project 6: Type Ahead
+### **Project 6: Type Ahead**
 **Completed:** 04/10/20
 
 **Lessons Learned:** 
 * `fetch` used for API calls, easy GET requests, promisified
 * Regular expressions can be used to modify data, and not just confirm patterns in data
 
-### **Project 7: Array Cardio Day 2
+### **Project 7: Array Cardio Day 2**
 **Completed:** 04/11/20
 
 **Lessons Learned:** 
 * `find` and `findIndex` methods only return the *first match*, subsequent matches are not returned. 
 
-### **Project 8: Fun with HTML5 Canvas
+### **Project 8: Fun with HTML5 Canvas**
 **Completed:** 04/12/20
 
 **Lessons Learned:** 
@@ -84,3 +84,13 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
     * Saturation (brightness)
     * Lightness (white to black)
     * Representation of rainbow pallette w/ all colors and shades, which we can programmatically select, and return to red
+
+### **Project 9: Dev Tools Domination**
+**Completed:** 04/15/20
+
+**Lessons Learned:** 
+* Interpolated isn't much needed as template literals can be used instead
+* Can add all the CSS you want to a console log
+* Console.assert for testing, only logs when an assertion is false
+* Console.group saves real estate in console.logs
+* Can re-size and sort tables produced by console.table
