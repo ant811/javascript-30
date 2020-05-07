@@ -122,3 +122,12 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 - Check shift key's use on the event object
 - Store references to the previous checked box and the currently checked box (previous `this` and current `this`) - check all elements between
 - NOTE: handleCheck function _cannot_ be an arrow function. It is not a method within a class and thus does not receive context of a parent object. The context it receives is the global window object.
+
+### **Project 11: Custom Video Player**
+
+**Completed:** 05/07/20
+**Lessons Learned/Notes:**
+
+- Discover names and events of `video` element by console-logging properties, titles are often intuitively names
+- `mousedown`, `mousemove`, `mouseup` are handy event listeners
+- `mousemove` event - using short-circuiting in `&&` statement to decide whether to dispatch event
