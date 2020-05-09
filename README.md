@@ -131,3 +131,11 @@ This repository tracks my progress and lessons learned on the JavaScript 30 Day 
 - Discover names and events of `video` element by console-logging properties, titles are often intuitively names
 - `mousedown`, `mousemove`, `mouseup` are handy event listeners
 - `mousemove` event - using short-circuiting in `&&` statement to decide whether to dispatch event
+
+### **Project 12: Key Sequence Decision**
+
+**Completed:** 05/08/20
+**Lessons Learned/Notes:**
+
+- Limit your code's effort/complexity:
+  - instead of capturing _every_ key press and looping through all key presses to find the target, limit the length of the key press cache to the length of the target
